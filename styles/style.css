@@ -1,0 +1,79 @@
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+body{
+    /* background-color: aqua; */
+    margin: 0%;
+    padding: 0%;
+    background-color: #FFF8F3;
+    
+}
+nav div{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+    width: 71%;
+    padding:0px 5px 0px 5px;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+ul{
+    display: flex;
+    gap: 50px;
+    /* text-decoration: none; */
+    list-style: none;
+    align-items: center;
+}
+nav h2{
+    /* background-color: #FD6E0A; */
+    font-weight: bolder;
+    font-size: 30px;
+}
+nav span{
+    color: #FD6E0A;
+}
+nav a{
+    /* background-color: black; */
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    background-color:#FD6E0A ;
+    color: white;
+    font-size:  20px;
+    font-weight: bolder;  
+    padding: 18px 32px;
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+#poster{
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+   
+    
+
+}
+.image{
+    /* background-color: black; */
+    max-height: max-content;
+    display: flex;
+    
+    
+    
+    
+}
+header{
+    background: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
